@@ -1,0 +1,28 @@
+
+Filename: README
+Names: Rahul Sharma, Blake Meyers
+Class account username: Blake Meyers cssc0430,  Rahul Sharma cssc0417
+Class information: CS530 Spring 2019
+Assignment information: Assignment #1, HexDump. A basic hexdump program that opens a binary or text file, reads every byte in
+the file and writes both the ASCII and hex value or Binary value for that byte as well as the corresponding printable character
+to standard output. For bytes forming non-printable characters, prints a dot character
+
+
+File manifest: xbd.cpp, xdb.h, Makefile, README.
+Compile instructions: make
+Operating instructions: To output in binary format then type xbd -b <filename>. To output in Hexadecimal
+format then type xbd <filename>
+
+
+List/description of novel/significant design decisions: The program is divided into two main functions,
+handleHex and handleBinary, that dump the conents of the file in hex or binary depending on the arguments given.
+
+List/description of any extra features/algorithms/functionality you included which were not required: N/A
+List/description of all known deficiencies or bugs: N/A
+
+Lessons Learned: Learned that we could use the hex and bitset functions by including libraries instead of making
+functions from scratch to convert to hex and binary respectively. Learned how to read from file, how to make 
+header and Makefile. Also learned how to work in a team and collaborate on github.
+
+
+
