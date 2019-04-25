@@ -1,21 +1,21 @@
-/** File: Makefile.txt
-  * Names: Blake Meyers, Rahul Sharma
-  * Class account username: Blake Meyers cssc0430,  Rahul Sharma cssc0417
-  * Class information: CS530 Spring 2019
-  * Assignment information: Assignment #1, HexDump. A basic hexdump program that opens a binary or text file, reads every byte in
-  * the file and writes both the ASCII and hex value or Binary value for that byte as well as it’s printable
-  * character to standard output. For bytes forming non-printable characters, prints a ‘.’character
-**/
+#       File: Makefile.txt
+#       Names: Blake Meyers, Rahul Sharma
+#       Class account username: Blake Meyers cssc0430,  Rahul Sharma cssc0417
+#       Class information: CS530 Spring 2019
+#       Assignment information: Assignment #1, HexDump. A basic hexdump program that opens a binary or text file, reads every byte in
+#       the file and writes both the ASCII and hex value or Binary value for that byte as well as it?~@~Ys printable
+#       character to standard output. For bytes forming non-printable characters, prints a ?~@~X.?~@~Ycharacter
 
-// Any time xbd.o changes, compile into executable caled xbd
+
+# Any time xbd.o changes, compile into executable caled xbd
 xbd: xbd.o
-	g++ xbd.o -o xbd
-	
+        g++ xbd.o -o xbd
+        
 
-// Any time xbd.cpp or xbd.h changes, compiles into object file, xbd.o
+# Any time xbd.cpp or xbd.h changes, compiles into object file, xbd.o
 xbd.o: xbd.cpp xbd.h
-	g++ -c xbd.cpp
+        g++ -c xbd.cpp
 
-//Removes any previously existing .o files or xbd executables files
+# Removes any previously existing .o files or xbd executables files
 clean:
-	rm *.o xbd
+        rm *.o xbd
